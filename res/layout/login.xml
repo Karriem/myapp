@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#ff7aecff"
+                android:focusable="false">
+    <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/nameTxt" android:layout_above="@+id/pass" android:layout_alignLeft="@+id/pass"
+            android:layout_marginBottom="66dp" android:layout_alignRight="@+id/pass"
+            android:background="#ffedfff4" />
+
+    <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:ems="10"
+            android:id="@+id/pass"
+            android:password="false"
+            style="@android:style/TextAppearance.Widget.EditText"
+            android:layout_above="@+id/chkBox" android:layout_centerHorizontal="true"
+            android:background="#ffedfff4"/>
+    <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tick Me"
+            android:id="@+id/chkBox" android:layout_centerVertical="true" android:layout_alignLeft="@+id/pass"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ok"
+            android:id="@+id/okBtn"
+            android:layout_marginTop="70dp" android:clickable="true" android:layout_below="@+id/chkBox"
+            android:layout_alignLeft="@+id/chkBox"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Clear"
+            android:id="@+id/clearBtn" android:layout_alignTop="@+id/okBtn" android:layout_alignRight="@+id/pass"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UserName:"
+            android:id="@+id/textUser" android:layout_above="@+id/nameTxt" android:layout_alignLeft="@+id/nameTxt"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Password:"
+            android:id="@+id/textPass" android:layout_above="@+id/pass" android:layout_alignLeft="@+id/pass"/>
+
+</RelativeLayout>

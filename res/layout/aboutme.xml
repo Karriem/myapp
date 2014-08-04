@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="About Me"
+            android:id="@+id/aboutmeTxt" android:layout_alignParentTop="true" android:layout_centerHorizontal="true"
+            android:textStyle="bold" android:textColor="#ffff4c42"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="My name is Karriem Petersen and I am 22 years old. On my free time I enjoy watching anime, movies aned playing computer games. I come from a family with five members which include two older sisters and a pair of loving parents (more or less)"
+            android:id="@+id/textView" android:layout_below="@+id/aboutmeTxt"
+            android:layout_marginTop="152dp" android:layout_alignTop="@+id/aboutmeTxt" android:textSize="18dp"/>
+    <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Back"
+            android:id="@+id/abackBtn" android:layout_alignParentBottom="true" android:layout_alignParentLeft="true"
+            android:layout_marginBottom="55dp" android:longClickable="false"/>
+</RelativeLayout>
