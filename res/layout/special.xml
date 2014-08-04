@@ -8,25 +8,19 @@
     <FrameLayout
             android:id="@+id/video_frame"
             android:layout_width="fill_parent"
-            android:layout_height="fill_parent" >
+            android:layout_height="fill_parent" android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true">
 
-        <Button
-                style="?android:attr/buttonStyleSmall"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Play"
-                android:id="@+id/playvideoplayer" android:layout_alignParentTop="true" android:layout_alignParentLeft="true"
-                android:layout_gravity="center_horizontal|bottom"/>
         <Button
                 style="?android:attr/buttonStyleSmall"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Back"
                 android:id="@+id/backS" android:layout_gravity="left|bottom"/>
-        <Gallery
-                android:layout_width="248dp"
-                android:layout_height="331dp"
-                android:id="@+id/gallery" android:layout_gravity="center"/>
+        <AnalogClock
+                android:layout_width="225dp"
+                android:layout_height="288dp"
+                android:id="@+id/analogClock" android:layout_gravity="center"/>
     </FrameLayout>
 
 </RelativeLayout>
