@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="hello">Hello World, Lop!</string>
-    <string name="app_name">myapp</string>
+    <string name="app_name">App Version 2</string>
+    <string name="action_refresh"></string>
+    <string name="action_search"></string>
 </resources>
