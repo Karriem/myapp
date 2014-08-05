@@ -10,7 +10,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".MenuActivity"/>
-        <activity android:name=".Special" android:label="Spacial"/>
+        <activity android:name=".Special" android:label="Special"/>
         <activity android:name=".AboutMe" android:label="About Me"/>
     </application>
 </manifest>
