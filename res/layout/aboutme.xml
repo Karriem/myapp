@@ -15,7 +15,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="My name is Karriem Petersen and I am 22 years old. On my free time I enjoy watching anime, movies aned playing computer games. I come from a family with five members which include two older sisters and a pair of loving parents (more or less)"
+            android:text="My name is Karriem Petersen and I am 22 years old. On my free time I enjoy watching anime, movies and playing computer games. I come from a family with five members which include two older sisters and a pair of loving parents (more or less)"
             android:id="@+id/textView" android:layout_below="@+id/aboutmeTxt"
             android:layout_marginTop="152dp" android:layout_alignTop="@+id/aboutmeTxt" android:textSize="18dp"/>
     <Button
@@ -23,6 +23,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Back"
-            android:id="@+id/abackBtn" android:layout_alignParentBottom="true" android:layout_alignParentLeft="true"
-            android:layout_marginBottom="55dp" android:longClickable="false"/>
+            android:id="@+id/abackBtn"
+            android:longClickable="false" android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"/>
 </RelativeLayout>

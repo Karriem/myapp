@@ -10,8 +10,11 @@
             </intent-filter>
         </activity>
         <activity android:name=".MenuActivity"/>
-        <activity android:name=".Special" android:label="Special"/>
         <activity android:name=".AboutMe" android:label="About Me"/>
         <activity android:name=".VideoPlayer" android:label="Video Player"/>
+        <activity android:name=".ActivityFragment" android:label="Fragments"/>
     </application>
+    <uses-feature android:name="android.hardware.camera"
+                  android:required="true" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 </manifest>
