@@ -12,5 +12,6 @@
         <activity android:name=".MenuActivity"/>
         <activity android:name=".Special" android:label="Special"/>
         <activity android:name=".AboutMe" android:label="About Me"/>
+        <activity android:name=".VideoPlayer" android:label="Video Player"/>
     </application>
 </manifest>
